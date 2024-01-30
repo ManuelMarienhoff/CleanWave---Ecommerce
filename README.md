@@ -4,6 +4,7 @@ Email:
 1. administrador@gmail.com
 2. consumidorfinal@gmail.com
 3. mayorista@gmail.com
+
 Contraseña:
 1. administrador
 2. consumidorfinal
