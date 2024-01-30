@@ -1,6 +1,6 @@
 module.exports = (sequelize, dataTypes) => {
   const Address = sequelize.define(
-    "Address",
+    'Address',
     {
       id: {
         type: dataTypes.STRING(255),
@@ -29,17 +29,17 @@ module.exports = (sequelize, dataTypes) => {
       },
     },
     {
-      tableName: "Addresses",
+      tableName: 'addresses',
       timestamps: false,
     }
   );
-  
+
   Address.associate = function (models) {
     Address.belongsTo(models.User, {
-      foreignKey: "id",
-      as: "users",
+      foreignKey: 'id',
+      as: 'users',
     });
   };
-  
-  return Address
+
+  return Address;
 };
