@@ -5,6 +5,7 @@ module.exports = {
     database: 'railway',
     host: 'viaduct.proxy.rlwy.net',
     dialect: 'mysql',
+    port: 33061,
   },
   test: {
     username: 'root',
@@ -12,6 +13,7 @@ module.exports = {
     database: 'railway',
     host: 'viaduct.proxy.rlwy.net',
     dialect: 'mysql',
+    port: 33061,
   },
   production: {
     username: 'root',
@@ -19,5 +21,6 @@ module.exports = {
     database: 'railway',
     host: 'viaduct.proxy.rlwy.net',
     dialect: 'mysql',
+    port: 33061,
   },
 };
