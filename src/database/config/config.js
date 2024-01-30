@@ -1,19 +1,10 @@
-const {
-  DB_HOST,
-  DB_USER,
-  DB_PASSWORD,
-  DB_NAME,
-  DB_PORT,
-} = require('../../config.js');
-
 module.exports = {
   development: {
-    username: DB_USER,
-    password: DB_PASSWORD,
-    database: DB_NAME,
-    host: DB_HOST,
+    username: 'root',
+    password: 'e2HHGdBc4DFcFC6eA5A4GHda-gec1CB4',
+    database: 'railway',
+    host: 'viaduct.proxy.rlwy.net',
     dialect: 'mysql',
-    port: DB_PORT,
   },
   test: {
     username: 'root',
@@ -21,7 +12,6 @@ module.exports = {
     database: 'database_test',
     host: '127.0.0.1',
     dialect: 'mysql',
-    port: DB_PORT,
   },
   production: {
     username: 'root',
@@ -29,6 +19,5 @@ module.exports = {
     database: 'database_production',
     host: '127.0.0.1',
     dialect: 'mysql',
-    port: DB_PORT,
   },
 };
