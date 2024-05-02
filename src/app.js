@@ -45,5 +45,5 @@ app.get('/', (req, res) => {
 app.use(notFound);
 
 // *************** Iniciar el servidor web *****************
-const { PORT } = require('./config.js');
+const PORT = 3333;
 app.listen(PORT, () => console.log(`Servidor creado en el puerto ${PORT}`));
